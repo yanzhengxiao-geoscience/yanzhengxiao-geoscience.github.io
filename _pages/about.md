@@ -21,7 +21,7 @@ I am Zhengxiao Yan, a Ph.D. candidate at Florida State University's FAMU-FSU Col
 
 My research interests lie at the intersection of machine learning, climate change, environmental health, hydrology and geographical modeling, remote sensing, and water & food resources and security. I am currently focused on predicting and mitigating harmful algal blooms and understanding the impacts of climate change on various environmental factors. My work often involves using advanced numerical algorithms and multi-sources data to develop predictive models for environmental decision-making and policy development. I have published several papers in the top journals in my research fields <a href="https://scholar.google.com/citations?user=_nVCKVMAAAAJ">
   <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Fyanzhengxiao-geoscience%2Fyanzhengxiao-geoscience.github.io%2Fgoogle-scholar-stats%2Fresults%2Fgs_data_shieldsio.json&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" />
-</a>
+</a>.
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
