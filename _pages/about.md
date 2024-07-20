@@ -20,9 +20,7 @@ redirect_from:
 I am Zhengxiao Yan, a Ph.D. candidate at Florida State University's FAMU-FSU College of Engineering, specializing in Civil Engineering. My academic journey began with a B.S. in Environmental Science from Hohai University, an M.E. in Environmental Engineering from Northwest University, and an exchange program in Civil Engineering at the University of New Mexico. My passion for environmental science and engineering has driven me to explore various aspects of geosciences.
 
 My research interests lie at the intersection of machine learning, climate change, environmental health, hydrology and geographical modeling, remote sensing, and water & food resources and security. I am currently focused on predicting and mitigating harmful algal blooms and understanding the impacts of climate change on various environmental factors. My work often involves using advanced numerical algorithms and multi-sources data to develop predictive models for environmental decision-making and policy development. I have published several papers at the top journals in my research fields <a href='https://scholar.google.com/citations?user=_nVCKVMAAAAJ&hl=en'>
-  <img src="https://img.shields.io/badge/Google%20Scholar-citations-9cf?style=flat&logo=google-scholar&labelColor=f6f6f6&color=9cf" alt="Google Scholar citations">
-</a>.
-
+  <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
