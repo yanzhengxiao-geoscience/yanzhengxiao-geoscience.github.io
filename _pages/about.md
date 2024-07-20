@@ -22,9 +22,17 @@ I am Zhengxiao Yan, a Ph.D. candidate at <a href="https://www.fsu.edu" target="_
 My research interests lie at the intersection of machine learning, climate change, environmental health, hydrology and geographical modeling, remote sensing, and water & food resources and security. I am currently focused on predicting and mitigating harmful algal blooms and understanding the impacts of climate change on various environmental factors. My work often involves using advanced numerical algorithms and multi-sources data to develop predictive models for environmental decision-making and policy development. I have published several papers in the top journals in my research fields <a href="https://scholar.google.com/citations?user=_nVCKVMAAAAJ">
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyanzhengxiao-geoscience%2Fyanzhengxiao-geoscience.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
+# 📖 Educations
+- *2021.08 - 2024.12 (now)*, Ph.D. in Civil Engineering, FAMU-FSU College of Engineering, Florida State University.
+- *2021.08 - 2023.12*, M.E. in Civil Engineering, FAMU-FSU College of Engineering, Florida State University.
+- *2019.08 - 2020.06*, Graduate Exchange Student in Civil Engineering, School of Engineering, University of New Mexico.
+- *2018.08 - 2019.06*, Joint-Supervision Program, Guangzhou Institute of Geography.
+- *2017.08 - 2020.06*, M.E. in Environmental Engineering, College of Urban & Environmental Sciences, Northwest University.
+- *2013.08 - 2017.06*, B.S. in Environmental Science, College of Environment, Hohai University.
+
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.07*: &nbsp;🎉🎉 "Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms" is accepted by the Journal of Environmental Management. 
+- *2024.02*: &nbsp;🎉🎉 "Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors" is accepted by the Science of The Total Environment. 
 
 # 📝 Publications 
 
@@ -46,13 +54,6 @@ My research interests lie at the intersection of machine learning, climate chang
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
