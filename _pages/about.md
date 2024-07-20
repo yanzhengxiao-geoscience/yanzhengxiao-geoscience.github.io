@@ -23,12 +23,12 @@ My research interests lie at the intersection of machine learning, climate chang
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyanzhengxiao-geoscience%2Fyanzhengxiao-geoscience.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 # 📖 Educations
-- *2021.08 - 2024.12 (now)*, Ph.D. in Civil Engineering, FAMU-FSU College of Engineering, Florida State University.
-- *2021.08 - 2023.12*, M.E. in Civil Engineering, FAMU-FSU College of Engineering, Florida State University.
-- *2019.08 - 2020.06*, Graduate Exchange Student in Civil Engineering, School of Engineering, University of New Mexico.
-- *2018.08 - 2019.06*, Joint-Supervision Program, Guangzhou Institute of Geography.
-- *2017.08 - 2020.06*, M.E. in Environmental Engineering, College of Urban & Environmental Sciences, Northwest University.
-- *2013.08 - 2017.06*, B.S. in Environmental Science, College of Environment, Hohai University.
+- *2021.08 - 2024.12 (now)*, **Ph.D.** in Civil Engineering, FAMU-FSU College of Engineering, **Florida State University**.
+- *2021.08 - 2023.12*, **M.E.** in Civil Engineering, FAMU-FSU College of Engineering, **Florida State University**.
+- *2019.08 - 2020.06*, Graduate Exchange Student in Civil Engineering, School of Engineering, **University of New Mexico**.
+- *2018.08 - 2019.06*, Joint-Supervision Program, **Guangzhou Institute of Geography**.
+- *2017.08 - 2020.06*, **M.E.** in Environmental Engineering, College of Urban & Environmental Sciences, **Northwest University**.
+- *2013.08 - 2017.06*, **B.S.** in Environmental Science, College of Environment, **Hohai University**.
 
 # 🔥 News
 - *2024.07*: &nbsp;🎉🎉 "Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms" is accepted by the Journal of Environmental Management. 
@@ -39,9 +39,9 @@ My research interests lie at the intersection of machine learning, climate chang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Analysis for spatial-temporal matching pattern between water and land resources in Central Asia](https://iwaponline.com/hr/article/51/5/994/74894/Analysis-for-spatial-temporal-matching-pattern)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Ying Zhang, **Zhengxiao Yan**, Jinxi Song, Anlei Wei, Haotian Sun, and Dandong Cheng
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
