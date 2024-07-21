@@ -40,31 +40,30 @@ My research interests lie at the intersection of *machine learning*, *climate ch
   <div class='paper-box-image'>
     <div>
       <div class="badge">Sustainability 2022</div>
-      <img src='/mnt/data/image.png' alt="sym" width="100%">
+      <img src='images/sus.png' alt="sym" width="100%">
     </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    [Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China](https://www.mdpi.com/2071-1050/14/14/8881)
-
-    **Yan, Z.**, Zhou, W., Wang, Y., & Chen, X. (2022). Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China. Sustainability, 14(14), 8881.
-  </div>
+    <div style="flex: 2; padding: 10px;">
+        <p>
+            <a href="https://www.mdpi.com/2071-1050/14/14/8881">Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China</a>
+            <br>
+            <strong>Yan, Z.</strong>, Zhou, W., Wang, Y., & Chen, X. (2022). Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China. Sustainability, 14(14), 8881.
+        </p>
+    </div>
 </div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">HR 2020</div>
-      <img src='/mnt/data/image.png' alt="sym" width="100%">
+      <img src='images/500x300.png' alt="sym" width="100%">
     </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    [Analysis for spatial-temporal matching pattern between water and land resources in Central Asia](https://iwaponline.com/hr/article/51/5/994/74894/Analysis-for-spatial-temporal-matching-pattern)
-    
-    Zhang, Y., **Yan, Z.**, Song, J., Wei, A., Sun, H., & Cheng, D. (2020). Analysis for spatial-temporal matching pattern between water and land resources in Central Asia. Hydrology Research, 51(5), 994-1008.
-    
-    [**Project Funding**]
-    - The research is supported by the Strategic Priority Research Program of the Chinese Academy of Sciences (XDA2004030201-2).
-  </div>
+    <div style="flex: 2; padding: 10px;">
+        <p>
+            <a href="https://iwaponline.com/hr/article/51/5/994/74894/Analysis-for-spatial-temporal-matching-pattern">Analysis for spatial-temporal matching pattern between water and land resources in Central Asia</a>
+            <br>
+            Zhang, Y., <strong>Yan, Z.</strong>, Song, J., Wei, A., Sun, H., & Cheng, D. (2020). Analysis for spatial-temporal matching pattern between water and land resources in Central Asia. Hydrology Research, 51(5), 994-1008.
+        </p>
+    </div>
 </div>
 
 - [Research progress on design hyetographs in small and medium-scale basins (中小流域设计暴雨雨型研究进展)](https://www.progressingeography.com/CN/10.18306/dlkxjz.2020.07.014), **Yan, Z.**, Xia, J., Song, J., Zhao, L., & Pang, G. (2020). Research progress on design hyetographs in small and medium-scale basins. Prog Geogr, 39(7), 1224-1235.
