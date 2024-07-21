@@ -36,29 +36,12 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 # 📝 Publications 
 
-<div style="display: flex; align-items: flex-start;">
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Sustainability 2022</div>
-      <img src='images/sus.png' alt="sym" width="100%">
-    </div>
-    <div style="flex: 2; padding: 10px;">
-        [Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China](https://www.mdpi.com/2071-1050/14/14/8881)
-        **Yan, Z.**, Zhou, W., Wang, Y., & Chen, X. (2022). Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China. Sustainability, 14(14), 8881.
-    </div>
-</div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">HR 2020</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div style="display: flex; align-items: flex-start;">
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">HR 2020</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
-    </div>
-    <div style="flex: 2; padding: 10px;">
-        [Analysis for spatial-temporal matching pattern between water and land resources in Central Asia](https://iwaponline.com/hr/article/51/5/994/74894/Analysis-for-spatial-temporal-matching-pattern)
-        Zhang, Y., **Yan, Z.**, Song, J., Wei, A., Sun, H., & Cheng, D. (2020). Analysis for spatial-temporal matching pattern between water and land resources in Central Asia. Hydrology Research, 51(5), 994-1008.
-    </div>
-</div>
+[Analysis for spatial-temporal matching pattern between water and land resources in Central Asia](https://iwaponline.com/hr/article/51/5/994/74894/Analysis-for-spatial-temporal-matching-pattern)
+
+Zhang, Y., **Yan, Z.**, Song, J., Wei, A., Sun, H., & Cheng, D. (2020). Analysis for spatial-temporal matching pattern between water and land resources in Central Asia. Hydrology Research, 51(5), 994-1008.
 
 - [Research progress on design hyetographs in small and medium-scale basins (中小流域设计暴雨雨型研究进展)](https://www.progressingeography.com/CN/10.18306/dlkxjz.2020.07.014), **Yan, Z.**, Xia, J., Song, J., Zhao, L., & Pang, G. (2020). Research progress on design hyetographs in small and medium-scale basins. Prog Geogr, 39(7), 1224-1235.
 
