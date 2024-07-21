@@ -36,6 +36,15 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JEMA 2024</div><img src='images/jema.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms](https://doi.org/10.1016/j.jenvman.2024.121463)
+
+**Yan, Z.**, & Alamdari, N. (2024). Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms. Journal of Environmental Management, 364, 121463.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EEENG 2024</div><img src='images/jee.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
