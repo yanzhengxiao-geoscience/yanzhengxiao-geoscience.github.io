@@ -42,8 +42,11 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 [Analysis for spatial-temporal matching pattern between water and land resources in Central Asia](https://iwaponline.com/hr/article/51/5/994/74894/Analysis-for-spatial-temporal-matching-pattern)
 
 Zhang, Y., **Yan, Z.**, Song, J., Wei, A., Sun, H., & Cheng, D. (2020). Analysis for spatial-temporal matching pattern between water and land resources in Central Asia. Hydrology Research, 51(5), 994-1008.
+</div>
+</div>
 
 - [Research progress on design hyetographs in small and medium-scale basins (中小流域设计暴雨雨型研究进展)](https://www.progressingeography.com/CN/10.18306/dlkxjz.2020.07.014), **Yan, Z.**, Xia, J., Song, J., Zhao, L., & Pang, G. (2020). Research progress on design hyetographs in small and medium-scale basins. Prog Geogr, 39(7), 1224-1235.
+
 
 # 💬 Presentations
 - *2024*, EWRI24 - **Yan Z**, Alamdari N. Evaluating the Effects of Climate Change on Harmful Algal Blooms in Coastal Estuaries Integrating Data-Driven and Downscaling Approaches, Milwaukee. 
