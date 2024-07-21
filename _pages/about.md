@@ -36,6 +36,15 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">STOTEN 2024</div><img src='images/stoten.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors](https://doi.org/10.1016/j.scitotenv.2023.169253)
+
+**Yan, Z.**, Zhou, W., Wang, Y., & Chen, X. (2022). Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China. Sustainability, 14(14), 8881.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainability 2022</div><img src='images/sus.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
