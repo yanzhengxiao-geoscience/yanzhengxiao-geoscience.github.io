@@ -36,24 +36,29 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">HR 2020</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Analysis for spatial-temporal matching pattern between water and land resources in Central Asia](https://iwaponline.com/hr/article/51/5/994/74894/Analysis-for-spatial-temporal-matching-pattern)
 
 Ying Zhang, **Zhengxiao Yan**, Jinxi Song, Anlei Wei, Haotian Sun, and Dandong Cheng
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project Funding**]
+- The research is supported by the Strategic Priority Research Program of the Chinese Academy of Sciences (XDA2004030201-2). 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Research progress on design hyetographs in small and medium-scale basins (中小流域设计暴雨雨型研究进展)](https://www.progressingeography.com/CN/10.18306/dlkxjz.2020.07.014), **Yan, Z.**, Xia, J., Song, J., Zhao, L., & Pang, G. (2020). Research progress on design hyetographs in small and medium-scale basins. Prog Geogr, 39(7), 1224-1235.
+
+# 💬 Presentations
+- *2024*, EWRI24 - **Yan Z**, Alamdari N. Evaluating the Effects of Climate Change on Harmful Algal Blooms in Coastal Estuaries Integrating Data-Driven and Downscaling Approaches, Milwaukee. 
+- *2024*, 21st CPASW - **Yan Z**, Alamdari N. Climate Change Impacts on Harmful Algal Blooms: An Integration of Data-Driven and Downscaling Approaches, Tallahassee.
+- *2023*, AGU23 - **Yan Z**, Alamdari N. Tackling Coastal HAB Prediction in Coastal Estuaries: A Hybrid Decomposition and Machine Learning Framework, San Francisco. 
+- *2023*, ISES23 - Azimi P, Keshavarz Z, Caballero C, Pakdehi M, **Yan Z**, Allen JG, Ahmadisharaf E. Understanding the interrelationship among human behaviors, building and flood characteristics, mold growth, and respiratory health after Hurricanes Ian and Ida, Chicago. 
+- *2023*, EWRI23 - **Yan Z**, Alamdari N. Machine Learning-Based Approach to Predict Time-series Harmful Algal Blooms in Biscayne Bay, Southeast Florida, Henderson. 
+- *2022*, AGU22 - **Yan Z**, Azimi P, Keshavarz Z, Caballero C, Ahmadisharaf E, Allen JG. Key drivers of mold growth and human respiratory illness after a hurricane: Lessons from Hurricane Ida, Chicago. 
+- *2022*, AGU22 - **Yan Z**, Alamdari N. Harmful algal blooms prediction in coastal areas with environmental stressors using machine learning Methods: Case study of Biscayne Bay, South Florida, Chicago.
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.08* Research Assistantship, Florida State University. 
+- *2024.08* Teaching Assistantship, Florida State University. 
