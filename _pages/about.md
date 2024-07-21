@@ -41,7 +41,7 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 [Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors](https://doi.org/10.1016/j.scitotenv.2023.169253)
 
-**Yan, Z.**, Zhou, W., Wang, Y., & Chen, X. (2022). Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China. Sustainability, 14(14), 8881.
+**Yan, Z.**, Kamanmalek, S., & Alamdari, N. (2024). Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors. Science of The Total Environment, 912, 169253.
 </div>
 </div>
 
