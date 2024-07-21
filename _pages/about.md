@@ -36,6 +36,15 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EEENG 2024</div><img src='images/jee.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Comprehensive Insights into Harmful Algal Blooms: A Review of Chemical, Physical, Biological, and Climatological Influencers with Predictive Modeling Approaches](https://doi.org/10.1061/JOEEDU.EEENG-7549)
+
+**Yan, Z.**, Kamanmalek, S., Alamdari, N., & Nikoo, M. R. (2024). Comprehensive Insights into Harmful Algal Blooms: A Review of Chemical, Physical, Biological, and Climatological Influencers with Predictive Modeling Approaches. Journal of Environmental Engineering, 150(4), 03124002.
+</div>
+</div>
+
 - [A comparative study of 11 non-linear regression models highlighting autoencoder, DBN, and SVR, enhanced by SHAP importance analysis in soybean branching prediction](https://www.nature.com/articles/s41598-024-55243-x), Zhou, W., **Yan, Z.**, & Zhang, L. (2024). A comparative study of 11 non-linear regression models highlighting autoencoder, DBN, and SVR, enhanced by SHAP importance analysis in soybean branching prediction. Scientific Reports, 14(1), 5905.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">STOTEN 2024</div><img src='images/stoten.png' alt="sym" width="100%"></div></div>
