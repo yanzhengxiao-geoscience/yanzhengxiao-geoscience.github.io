@@ -41,7 +41,7 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 [Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms](https://doi.org/10.1016/j.jenvman.2024.121463)
 
-**Yan, Z.**, & Alamdari, N. (2024). Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms. Journal of Environmental Management, 364, 121463.
+**Yan, Z.**, & Alamdari, N. (2024). Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms. *Journal of Environmental Management*, 364, 121463.
 </div>
 </div>
 
@@ -50,18 +50,18 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 [Comprehensive Insights into Harmful Algal Blooms: A Review of Chemical, Physical, Biological, and Climatological Influencers with Predictive Modeling Approaches](https://doi.org/10.1061/JOEEDU.EEENG-7549)
 
-**Yan, Z.**, Kamanmalek, S., Alamdari, N., & Nikoo, M. R. (2024). Comprehensive Insights into Harmful Algal Blooms: A Review of Chemical, Physical, Biological, and Climatological Influencers with Predictive Modeling Approaches. Journal of Environmental Engineering, 150(4), 03124002.
+**Yan, Z.**, Kamanmalek, S., Alamdari, N., & Nikoo, M. R. (2024). Comprehensive Insights into Harmful Algal Blooms: A Review of Chemical, Physical, Biological, and Climatological Influencers with Predictive Modeling Approaches. *Journal of Environmental Engineering*, 150(4), 03124002.
 </div>
 </div>
 
-- [A comparative study of 11 non-linear regression models highlighting autoencoder, DBN, and SVR, enhanced by SHAP importance analysis in soybean branching prediction](https://www.nature.com/articles/s41598-024-55243-x), Zhou, W., **Yan, Z.**, & Zhang, L. (2024). A comparative study of 11 non-linear regression models highlighting autoencoder, DBN, and SVR, enhanced by SHAP importance analysis in soybean branching prediction. Scientific Reports, 14(1), 5905.
+- [A comparative study of 11 non-linear regression models highlighting autoencoder, DBN, and SVR, enhanced by SHAP importance analysis in soybean branching prediction](https://www.nature.com/articles/s41598-024-55243-x), Zhou, W., **Yan, Z.**, & Zhang, L. (2024). A comparative study of 11 non-linear regression models highlighting autoencoder, DBN, and SVR, enhanced by SHAP importance analysis in soybean branching prediction. *Scientific Reports*, 14(1), 5905.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">STOTEN 2024</div><img src='images/stoten.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors](https://doi.org/10.1016/j.scitotenv.2023.169253)
 
-**Yan, Z.**, Kamanmalek, S., & Alamdari, N. (2024). Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors. Science of The Total Environment, 912, 169253.
+**Yan, Z.**, Kamanmalek, S., & Alamdari, N. (2024). Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors. *Science of The Total Environment*, 912, 169253.
 </div>
 </div>
 
@@ -70,7 +70,7 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 [Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China](https://www.mdpi.com/2071-1050/14/14/8881)
 
-**Yan, Z.**, Zhou, W., Wang, Y., & Chen, X. (2022). Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China. Sustainability, 14(14), 8881.
+**Yan, Z.**, Zhou, W., Wang, Y., & Chen, X. (2022). Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China. *Sustainability*, 14(14), 8881.
 </div>
 </div>
 
@@ -79,11 +79,11 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 
 [Analysis for spatial-temporal matching pattern between water and land resources in Central Asia](https://iwaponline.com/hr/article/51/5/994/74894/Analysis-for-spatial-temporal-matching-pattern)
 
-Zhang, Y., **Yan, Z.**, Song, J., Wei, A., Sun, H., & Cheng, D. (2020). Analysis for spatial-temporal matching pattern between water and land resources in Central Asia. Hydrology Research, 51(5), 994-1008.
+Zhang, Y., **Yan, Z.**, Song, J., Wei, A., Sun, H., & Cheng, D. (2020). Analysis for spatial-temporal matching pattern between water and land resources in Central Asia. *Hydrology Research*, 51(5), 994-1008.
 </div>
 </div>
 
-- [Research progress on design hyetographs in small and medium-scale basins (中小流域设计暴雨雨型研究进展)](https://www.progressingeography.com/CN/10.18306/dlkxjz.2020.07.014), **Yan, Z.**, Xia, J., Song, J., Zhao, L., & Pang, G. (2020). Research progress on design hyetographs in small and medium-scale basins. Prog Geogr, 39(7), 1224-1235.
+- [Research progress on design hyetographs in small and medium-scale basins (中小流域设计暴雨雨型研究进展)](https://www.progressingeography.com/CN/10.18306/dlkxjz.2020.07.014), **Yan, Z.**, Xia, J., Song, J., Zhao, L., & Pang, G. (2020). Research progress on design hyetographs in small and medium-scale basins. *Prog Geogr*, 39(7), 1224-1235.
 
 
 # 💬 Presentations
