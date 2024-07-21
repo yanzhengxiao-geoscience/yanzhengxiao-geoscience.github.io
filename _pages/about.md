@@ -35,7 +35,6 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 - *2024.02*: &nbsp;🎉🎉 "Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors" is accepted by the Science of The Total Environment. 
 
 # 📝 Publications 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JEMA 2024</div><img src='images/jema.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
