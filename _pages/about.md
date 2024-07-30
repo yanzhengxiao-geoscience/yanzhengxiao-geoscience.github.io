@@ -31,7 +31,8 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 - *2013.08 - 2017.06*, **B.S.** in Environmental Science, College of Environment, **Hohai University**.
 
 # 🔬 Research Experiences and Services
-- *2021.08 - 2024.12*, **Research Assistant**, FAMU-FSU College of Engineering, **Florida State University**.
+- *2024.08 - 2024.12*, **Teaching Assistant**, FAMU-FSU College of Engineering, **Florida State University**.
+- *2021.08 - 2024.07*, **Research Assistant**, FAMU-FSU College of Engineering, **Florida State University**.
 - *2020.10 - 2021.07*, **Research Assistant**, School of Earth System Science, **Tianjin University**.
 - *2019.09 - 2020.01*, **Laboratory Assistant**, School of Engineering, **University of New Mexico**.
 - *2017.08 - 2020.06*, **Research Assistant**, College of Urban & Environmental Sciences, **Northwest University**.
