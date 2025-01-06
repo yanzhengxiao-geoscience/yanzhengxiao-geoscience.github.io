@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhengxiao Yan"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "PhD candidate"
-  affiliation      : "Florida State University"
-  location         : "Tallahassee, Florida, USA"
+  bio              : "Ph.D."
+  affiliation      : "University of North Carolina at Chapel Hill"
+  location         : "Chapel Hill, North Carolina, USA"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "zyan3@fsu.edu"
+  email            : "zxyan@unc.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
