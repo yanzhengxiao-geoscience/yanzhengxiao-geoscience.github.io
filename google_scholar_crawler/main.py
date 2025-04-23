@@ -30,7 +30,10 @@ with open("results/gs_data.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 # 提取 citation 总数写入 shields.io
-citations = "TO_BE_FILLED"
+try:
+    citations = results["author"]["cited_by"]["table"][0]["citations"]
+except (KeyError, IndexError, TypeError):
+    citations = "N/A"
 
 shieldio_data = {
   "schemaVersion": 1,
