@@ -29,7 +29,11 @@ with open("results/gs_data.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 # 提取 citation 总数写入 shields.io
-citations = results.get("cited_by", {}).get("total", "N/A")
+citations = (
+    results.get("author", {})
+           .get("cited_by", {})
+           .get("total", "N/A")
+)
 
 shieldio_data = {
   "schemaVersion": 1,
