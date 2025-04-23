@@ -135,3 +135,11 @@ dmypy.json
 # ✅ 允许提交指定 JSON 文件（用于 GitHub Pages 显示引用数）
 !results/gs_data.json
 !results/gs_data_shieldsio.json
+
+# ✅ 允许提交 results 文件夹中的 JSON（用于调试）
+!results/gs_data.json
+!results/gs_data_shieldsio.json
+
+# ✅ 允许提交根目录下的 JSON，用于 GitHub Pages 的 Shields.io 显示
+!/../gs_data_shieldsio.json
+
