@@ -131,3 +131,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ✅ 允许提交指定 JSON 文件（用于 GitHub Pages 显示引用数）
+!results/gs_data.json
+!results/gs_data_shieldsio.json
