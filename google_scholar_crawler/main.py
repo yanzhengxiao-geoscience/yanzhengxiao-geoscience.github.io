@@ -41,7 +41,7 @@ shieldio_data = {
 with open("results/gs_data_shieldsio.json", "w") as f:
     json.dump(shieldio_data, f, indent=2, ensure_ascii=False)
 
-with open("../gs_data_shieldsio.json", "w") as f:
+with open(os.path.join(os.path.dirname(__file__), "..", "gs_data_shieldsio.json"), "w") as f:
     json.dump(shieldio_data, f, indent=2, ensure_ascii=False)
 
 print(f"✅ {name} 的引用数是 {citation_count}")
