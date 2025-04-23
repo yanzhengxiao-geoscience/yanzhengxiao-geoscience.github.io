@@ -34,4 +34,8 @@ shieldio_data = {
 with open("results/gs_data_shieldsio.json", "w") as f:
     json.dump(shieldio_data, f, indent=2, ensure_ascii=False)
 
+# ✅ 新增：再保存一份到项目根目录（用 ../.. 返回上层）
+with open("../../gs_data_shieldsio.json", "w") as f:
+    json.dump(shieldio_data, f, indent=2, ensure_ascii=False)
+    
 print(f"✅ {name} 的引用数是 {citation_count}")
