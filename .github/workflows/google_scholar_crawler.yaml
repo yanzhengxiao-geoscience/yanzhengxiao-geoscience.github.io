@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10  # 💡 添加此行，10分钟内强制终止
     steps:
     - uses: actions/checkout@v2
     - name: Install Reqs
