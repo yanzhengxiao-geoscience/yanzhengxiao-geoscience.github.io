@@ -1,50 +1,49 @@
 import os
 import json
-from datetime import datetime
-from serpapi import GoogleSearch
+from scholarly import scholarly
 
-AUTHOR_ID = os.environ.get("GOOGLE_SCHOLAR_ID")
-API_KEY = os.environ.get("SERPAPI_KEY")
+def main():
+    # 获取环境变量中的 Google Scholar ID
+    scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID")
 
-print("📘 [START] Fetching data using SerpAPI...")
+    if not scholar_id:
+        print("❌ ERROR: GOOGLE_SCHOLAR_ID not found in environment variables.")
+        return
 
-params = {
-  "engine": "google_scholar_author",
-  "author_id": AUTHOR_ID,
-  "api_key": API_KEY
-}
+    print(f"📌 Scholar ID: {scholar_id}")
 
-search = GoogleSearch(params)
-results = search.get_dict()
+    try:
+        # 查找作者信息并填充
+        author = scholarly.search_author_id(scholar_id)
+        results = scholarly.fill(author)
 
-# ========== 新增调试输出 ==========
-api_key = os.environ.get("SERPAPI_KEY")
-if not api_key:
-    print("❌ SERPAPI_KEY not found in environment variables!")
-    exit(1)
-else:
-    print("🔐 SERPAPI_KEY detected, length:", len(api_key))
+        # 打印完整原始数据（调试用）
+        print("🔎 Raw results:")
+        print(json.dumps(results, indent=2))
 
-# ========== 错误检查 ==========
-if "error" in results:
-    print(f"❌ SerpAPI error: {results['error']}")
-    exit(1)
-if "cited_by" not in results:
-    print("❌ Missing 'cited_by' in response — likely incorrect author_id or not public.")
-    exit(1)
+        # 尝试获取引用总数，如果不存在就设为 0
+        total_citations = results.get("cited_by", {}).get("total", 0)
+        print(f"📊 Total Citations: {total_citations}")
 
-# ========== 正常处理 ==========
-results["updated"] = str(datetime.now())
-os.makedirs("results", exist_ok=True)
-with open("results/gs_data.json", "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+        # 构建简化版输出数据
+        output = {
+            "name": results.get("name", "N/A"),
+            "affiliation": results.get("affiliation", "N/A"),
+            "total_citations": total_citations,
+            "h_index": results.get("cited_by", {}).get("h_index", {}).get("all", 0),
+            "i10_index": results.get("cited_by", {}).get("i10_index", {}).get("all", 0)
+        }
 
-shieldio_data = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{results['cited_by']['total']}",
-}
-with open("results/gs_data_shieldsio.json", "w", encoding="utf-8") as f:
-    json.dump(shieldio_data, f, ensure_ascii=False)
+        # 保存为 JSON 文件
+        output_path = "./results/citation_summary.json"
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
 
-print("✅ [DONE] Citation data updated via SerpAPI.")
+        print(f"✅ Citation summary saved to {output_path}")
+
+    except Exception as e:
+        print(f"❌ ERROR during data fetching or processing: {e}")
+
+if __name__ == "__main__":
+    main()
