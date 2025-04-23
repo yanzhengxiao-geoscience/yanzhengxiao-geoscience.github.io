@@ -32,7 +32,7 @@ with open("results/gs_data.json", "w", encoding="utf-8") as f:
 citations = (
     results.get("author", {})
            .get("cited_by", {})
-           .get("total", "N/A")
+           .get("value", "N/A")
 )
 
 shieldio_data = {
