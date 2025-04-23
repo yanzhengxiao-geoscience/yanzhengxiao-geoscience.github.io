@@ -21,7 +21,7 @@ data = response.json()
 
 citation_count = data.get("cited_by", {}).get("table", [{}])[0].get("citations", {}).get("all", 0)
 
-name = data.get("name", "unknown")
+name = data.get("author", {}).get("name", "unknown")
 
 os.makedirs("results", exist_ok=True)
 with open("results/gs_data.json", "w") as f:
