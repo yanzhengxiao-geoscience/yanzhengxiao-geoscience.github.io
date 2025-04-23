@@ -2,48 +2,43 @@ from scholarly import scholarly
 import json
 from datetime import datetime
 import os
-import signal
+from multiprocessing import Process
 import sys
 
-# ========== Timeout Setup ==========
-class TimeoutException(Exception): pass
-def timeout_handler(signum, frame):
-    raise TimeoutException("Script timed out")
+def run_crawler():
+    try:
+        print("📘 [START] Fetching author...")
+        author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+        scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+        author['updated'] = str(datetime.now())
+        author['publications'] = {v['author_pub_id']:v for v in author['publications']}
 
-signal.signal(signal.SIGALRM, timeout_handler)
-signal.alarm(60)  # 设置总运行时间上限为60秒（可根据需要修改）
+        print("📗 [INFO] Saving results...")
+        os.makedirs('results', exist_ok=True)
+        with open(f'results/gs_data.json', 'w') as outfile:
+            json.dump(author, outfile, ensure_ascii=False, indent=2)
 
-# ========== Start Script ==========
-try:
-    print("Fetching author ID...")
-    author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+        shieldio_data = {
+            "schemaVersion": 1,
+            "label": "citations",
+            "message": f"{author['citedby']}",
+        }
+        with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
+            json.dump(shieldio_data, outfile, ensure_ascii=False)
 
-    print("Filling author profile...")
-    scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+        print("✅ Citation data successfully updated.")
 
-    name = author['name']
-    author['updated'] = str(datetime.now())
-    author['publications'] = {v['author_pub_id']:v for v in author['publications']}
-    
-    print("Saving results...")
-    os.makedirs('results', exist_ok=True)
-    with open(f'results/gs_data.json', 'w') as outfile:
-        json.dump(author, outfile, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"❌ Error in scholarly script: {e}")
+        sys.exit(1)
 
-    shieldio_data = {
-        "schemaVersion": 1,
-        "label": "citations",
-        "message": f"{author['citedby']}",
-    }
-    with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
-        json.dump(shieldio_data, outfile, ensure_ascii=False)
 
-    print("✅ Citation data successfully updated.")
-
-except TimeoutException as e:
-    print(f"❌ Timeout: {e}")
-    sys.exit(1)
-
-except Exception as e:
-    print(f"❌ Failed to retrieve Google Scholar data: {e}")
-    sys.exit(1)
+if __name__ == '__main__':
+    p = Process(target=run_crawler)
+    p.start()
+    p.join(timeout=60)  # 最多运行 60 秒
+    if p.is_alive():
+        print("❌ Timeout: scholarly crawl took too long.")
+        p.terminate()
+        p.join()
+        sys.exit(1)
