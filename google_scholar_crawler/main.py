@@ -19,24 +19,28 @@ params = {
 response = requests.get(url, params=params)
 data = response.json()
 
+# ✅ 正确提取引用数
 citation_count = data.get("cited_by", {}).get("table", [{}])[0].get("citations", {}).get("all", 0)
 
+# ✅ 正确提取作者名
 name = data.get("author", {}).get("name", "unknown")
 
+# ✅ 保存完整 JSON
 os.makedirs("results", exist_ok=True)
 with open("results/gs_data.json", "w") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
+# ✅ 构建徽章 JSON
 shieldio_data = {
     "schemaVersion": 1,
     "label": "citations",
     "message": str(citation_count)
 }
 
+# ✅ 保存徽章 JSON 到两个位置
 with open("results/gs_data_shieldsio.json", "w") as f:
     json.dump(shieldio_data, f, indent=2, ensure_ascii=False)
 
-# ✅ 保存一份到项目根目录（GitHub Pages 可直接访问）
 with open("../gs_data_shieldsio.json", "w") as f:
     json.dump(shieldio_data, f, indent=2, ensure_ascii=False)
 
