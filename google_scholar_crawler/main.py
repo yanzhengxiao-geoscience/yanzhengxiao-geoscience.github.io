@@ -1,49 +1,51 @@
 import os
 import json
+import traceback
 from scholarly import scholarly
 
 def main():
-    # 获取环境变量中的 Google Scholar ID
-    scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID")
+    print("📘 Starting Google Scholar data fetcher...")
 
+    # 获取 Scholar ID
+    scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID")
     if not scholar_id:
-        print("❌ ERROR: GOOGLE_SCHOLAR_ID not found in environment variables.")
+        print("❌ Environment variable GOOGLE_SCHOLAR_ID not found.")
         return
 
-    print(f"📌 Scholar ID: {scholar_id}")
+    print(f"🔍 Fetching data for Google Scholar ID: {scholar_id}")
 
     try:
-        # 查找作者信息并填充
+        # 查找作者信息
         author = scholarly.search_author_id(scholar_id)
         results = scholarly.fill(author)
 
-        # 打印完整原始数据（调试用）
-        print("🔎 Raw results:")
-        print(json.dumps(results, indent=2))
+        # 提取引用信息
+        cited_by = results.get("cited_by", {})
+        total_citations = cited_by.get("total", 0)
+        h_index = cited_by.get("h_index", {}).get("all", 0)
+        i10_index = cited_by.get("i10_index", {}).get("all", 0)
 
-        # 尝试获取引用总数，如果不存在就设为 0
-        total_citations = results.get("cited_by", {}).get("total", 0)
-        print(f"📊 Total Citations: {total_citations}")
-
-        # 构建简化版输出数据
         output = {
-            "name": results.get("name", "N/A"),
-            "affiliation": results.get("affiliation", "N/A"),
+            "name": results.get("name"),
+            "affiliation": results.get("affiliation"),
+            "interests": results.get("interests", []),
+            "email_domain": results.get("email_domain", ""),
+            "url_picture": results.get("url_picture", ""),
             "total_citations": total_citations,
-            "h_index": results.get("cited_by", {}).get("h_index", {}).get("all", 0),
-            "i10_index": results.get("cited_by", {}).get("i10_index", {}).get("all", 0)
+            "h_index": h_index,
+            "i10_index": i10_index
         }
 
-        # 保存为 JSON 文件
-        output_path = "./results/citation_summary.json"
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with open(output_path, "w", encoding="utf-8") as f:
+        # 保存结果
+        os.makedirs("./results", exist_ok=True)
+        with open("./results/citation_summary.json", "w", encoding="utf-8") as f:
             json.dump(output, f, ensure_ascii=False, indent=2)
 
-        print(f"✅ Citation summary saved to {output_path}")
+        print("✅ Citation summary saved to ./results/citation_summary.json")
 
     except Exception as e:
-        print(f"❌ ERROR during data fetching or processing: {e}")
+        print("❌ An error occurred during execution.")
+        traceback.print_exc()
 
 if __name__ == "__main__":
     main()
