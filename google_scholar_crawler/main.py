@@ -1,32 +1,23 @@
 from scholarly import scholarly
+import jsonpickle
 import json
+from datetime import datetime
 import os
 
-GOOGLE_SCHOLAR_ID = os.environ.get("GOOGLE_SCHOLAR_ID")
-if not GOOGLE_SCHOLAR_ID:
-    print("❌ GOOGLE_SCHOLAR_ID not set!")
-    exit(1)
+author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+name = author['name']
+author['updated'] = str(datetime.now())
+author['publications'] = {v['author_pub_id']:v for v in author['publications']}
+print(json.dumps(author, indent=2))
+os.makedirs('results', exist_ok=True)
+with open(f'results/gs_data.json', 'w') as outfile:
+    json.dump(author, outfile, ensure_ascii=False)
 
-print("📘 [START] Fetching data using SerpAPI...")
-
-author = scholarly.search_author_id(GOOGLE_SCHOLAR_ID)
-results = scholarly.fill(author)
-
-print(f"✅ Got results for {results['name']}")
-
-with open("results/citation.json", "w", encoding="utf-8") as f:
-    json.dump(results, f, indent=2)
-
-print("📁 Citation data saved to results/citation.json")
-
-# optional: output a summary
-summary = {
-    "message": f"{results['cited_by']['total']}",
-    "h_index": results['cited_by']['h_index']['all'],
-    "i10_index": results['cited_by']['i10_index']['all']
+shieldio_data = {
+  "schemaVersion": 1,
+  "label": "citations",
+  "message": f"{author['citedby']}",
 }
-
-with open("results/citation_summary.json", "w", encoding="utf-8") as f:
-    json.dump(summary, f, indent=2)
-
-print("📁 Summary saved to results/citation_summary.json")
+with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
+    json.dump(shieldio_data, outfile, ensure_ascii=False)
