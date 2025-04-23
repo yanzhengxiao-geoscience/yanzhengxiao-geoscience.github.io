@@ -1,44 +1,40 @@
-from scholarly import scholarly
+import os
 import json
 from datetime import datetime
-import os
-from multiprocessing import Process
-import sys
+from serpapi import GoogleSearch
 
-def run_crawler():
-    try:
-        print("📘 [START] Fetching author...")
-        author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-        scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-        author['updated'] = str(datetime.now())
-        author['publications'] = {v['author_pub_id']:v for v in author['publications']}
+# 获取环境变量
+AUTHOR_ID = os.environ.get("GOOGLE_SCHOLAR_ID")
+API_KEY = os.environ.get("SERPAPI_KEY")
 
-        print("📗 [INFO] Saving results...")
-        os.makedirs('results', exist_ok=True)
-        with open(f'results/gs_data.json', 'w') as outfile:
-            json.dump(author, outfile, ensure_ascii=False, indent=2)
+print("📘 [START] Fetching data using SerpAPI...")
 
-        shieldio_data = {
-            "schemaVersion": 1,
-            "label": "citations",
-            "message": f"{author['citedby']}",
-        }
-        with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
-            json.dump(shieldio_data, outfile, ensure_ascii=False)
+params = {
+  "engine": "google_scholar_author",
+  "author_id": AUTHOR_ID,
+  "api_key": API_KEY
+}
 
-        print("✅ Citation data successfully updated.")
+search = GoogleSearch(params)
+results = search.get_dict()
 
-    except Exception as e:
-        print(f"❌ Error in scholarly script: {e}")
-        sys.exit(1)
+# 添加时间戳
+results["updated"] = str(datetime.now())
 
+# 创建文件夹
+os.makedirs("results", exist_ok=True)
 
-if __name__ == '__main__':
-    p = Process(target=run_crawler)
-    p.start()
-    p.join(timeout=60)  # 最多运行 60 秒
-    if p.is_alive():
-        print("❌ Timeout: scholarly crawl took too long.")
-        p.terminate()
-        p.join()
-        sys.exit(1)
+# 保存完整数据
+with open("results/gs_data.json", "w", encoding="utf-8") as f:
+    json.dump(results, f, ensure_ascii=False, indent=2)
+
+# 提取 citation 总数写入 shields.io
+shieldio_data = {
+  "schemaVersion": 1,
+  "label": "citations",
+  "message": f"{results['cited_by']['total']}",
+}
+with open("results/gs_data_shieldsio.json", "w", encoding="utf-8") as f:
+    json.dump(shieldio_data, f, ensure_ascii=False)
+
+print("✅ [DONE] Citation data updated via SerpAPI.")
