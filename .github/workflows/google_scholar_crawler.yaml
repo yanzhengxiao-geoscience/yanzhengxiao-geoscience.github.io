@@ -1,14 +1,14 @@
 name: Get Citation Data
 
 on:
-  page_build:
   schedule:
-    - cron: '0 8 * * *'  # 每天早上 8 点运行一次（UTC 时间）
+    - cron: '0 8 * * *'  # 每天早上8点（UTC）运行
+  workflow_dispatch:     # 允许手动运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # ⏱ 10分钟超时限制，避免卡死
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v2
@@ -29,11 +29,11 @@ jobs:
           cd ./google_scholar_crawler
           python3 main.py
 
-      - name: Commit & Push Results
+      - name: Commit & Push Results if Changed
         run: |
           cd ./google_scholar_crawler/results
           git config --local user.name "${{ github.actor }}"
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git add *.json
-          git commit -m "🔄 Auto-update Google Scholar citation data"
-          git push -f
+          git diff --cached --quiet || git commit -m "🔄 Auto-update Google Scholar citation data"
+          git diff --cached --quiet || git push -f
