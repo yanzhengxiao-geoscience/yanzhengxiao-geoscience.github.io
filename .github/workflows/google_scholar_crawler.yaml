@@ -2,8 +2,8 @@ name: Get Citation Data
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # 每天早上8点（UTC）运行
-  workflow_dispatch:     # 允许手动运行
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -29,10 +29,10 @@ jobs:
           cd ./google_scholar_crawler
           python3 main.py
 
-      - name: Commit & Push Results if Changed
+      - name: Commit & Push
         run: |
           git config --local user.name "${{ github.actor }}"
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-          git add google_scholar_crawler/results/*.json gs_data_shieldsio.json
-          git diff --cached --quiet || git commit -m "🔄 Auto-update Google Scholar citation data"
-          git diff --cached --quiet || git push -f
+          git add gs_data_shieldsio.json
+          git commit -m "🔄 Update Scholar citation badge" || echo "No changes"
+          git push origin main
