@@ -17,8 +17,8 @@ params = {
 
 search = GoogleSearch(params)
 results = search.get_dict()
-print("🔍 Full cited_by block:\n", json.dumps(results.get("author", {}).get("cited_by", {}), indent=2))
-print(json.dumps(results, indent=2))
+print("🔍 DEBUG - Full cited_by block:")
+print(json.dumps(results.get("author", {}).get("cited_by", {}), indent=2))
 # 添加时间戳
 results["updated"] = str(datetime.now())
 
@@ -30,10 +30,7 @@ with open("results/gs_data.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 # 提取 citation 总数写入 shields.io
-try:
-    citations = results["author"]["cited_by"]["table"][0]["citations"]
-except (KeyError, IndexError, TypeError):
-    citations = "N/A"
+citations = "DEBUG"
 
 shieldio_data = {
   "schemaVersion": 1,
