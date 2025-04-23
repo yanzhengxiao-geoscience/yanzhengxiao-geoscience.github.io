@@ -17,7 +17,7 @@ params = {
 
 search = GoogleSearch(params)
 results = search.get_dict()
-
+print(json.dumps(results, indent=2))
 # 添加时间戳
 results["updated"] = str(datetime.now())
 
