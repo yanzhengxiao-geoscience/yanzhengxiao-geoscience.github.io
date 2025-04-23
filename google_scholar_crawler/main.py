@@ -3,7 +3,6 @@ import json
 from datetime import datetime
 from serpapi import GoogleSearch
 
-# 获取环境变量
 AUTHOR_ID = os.environ.get("GOOGLE_SCHOLAR_ID")
 API_KEY = os.environ.get("SERPAPI_KEY")
 
@@ -18,17 +17,24 @@ params = {
 search = GoogleSearch(params)
 results = search.get_dict()
 
-# 添加时间戳
+# ========== 新增调试输出 ==========
+print("📋 [DEBUG] Raw results from SerpAPI:")
+print(json.dumps(results, indent=2))
+
+# ========== 错误检查 ==========
+if "error" in results:
+    print(f"❌ SerpAPI error: {results['error']}")
+    exit(1)
+if "cited_by" not in results:
+    print("❌ Missing 'cited_by' in response — likely incorrect author_id or not public.")
+    exit(1)
+
+# ========== 正常处理 ==========
 results["updated"] = str(datetime.now())
-
-# 创建文件夹
 os.makedirs("results", exist_ok=True)
-
-# 保存完整数据
 with open("results/gs_data.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
-# 提取 citation 总数写入 shields.io
 shieldio_data = {
   "schemaVersion": 1,
   "label": "citations",
