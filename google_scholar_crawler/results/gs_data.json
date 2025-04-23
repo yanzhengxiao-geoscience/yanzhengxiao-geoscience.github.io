@@ -1,0 +1,390 @@
+{
+  "search_metadata": {
+    "id": "68095acb1b26bc7f0a2c5ee7",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/aae295354c38d7e4/68095acb1b26bc7f0a2c5ee7.json",
+    "created_at": "2025-04-23 21:25:31 UTC",
+    "processed_at": "2025-04-23 21:25:31 UTC",
+    "google_scholar_author_url": "https://scholar.google.com/citations?user=_nVCKVMAAAAJ&hl=en",
+    "raw_html_file": "https://serpapi.com/searches/aae295354c38d7e4/68095acb1b26bc7f0a2c5ee7.html",
+    "total_time_taken": 0.21
+  },
+  "search_parameters": {
+    "engine": "google_scholar_author",
+    "author_id": "_nVCKVMAAAAJ",
+    "hl": "en"
+  },
+  "author": {
+    "name": "Zhengxiao Yan",
+    "affiliations": "Postdoctoral Research Associate, University of North Carolina at Chapel Hill",
+    "email": "Verified email at unc.edu",
+    "website": "https://yanzhengxiao-geoscience.github.io/",
+    "interests": [
+      {
+        "title": "Machine Learning",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:machine_learning",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amachine_learning"
+      },
+      {
+        "title": "Environmental Science",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:environmental_science",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aenvironmental_science"
+      },
+      {
+        "title": "Ecological Modeling",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:ecological_modeling",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aecological_modeling"
+      },
+      {
+        "title": "Remote Sensing",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:remote_sensing",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aremote_sensing"
+      },
+      {
+        "title": "Climate Change Impacts",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:climate_change_impacts",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aclimate_change_impacts"
+      }
+    ],
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=_nVCKVMAAAAJ&citpid=5"
+  },
+  "articles": [
+    {
+      "title": "A comparative study of 11 non-linear regression models highlighting autoencoder, DBN, and SVR, enhanced by SHAP importance analysis in soybean branching prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "_nVCKVMAAAAJ:YsMSGLbcyi4C",
+      "authors": "W Zhou, Z Yan, L Zhang",
+      "publication": "Scientific Reports 14 (1), 5905, 2024",
+      "cited_by": {
+        "value": 38,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11040031840094279199",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11040031840094279199&engine=google_scholar&hl=en",
+        "cites_id": "11040031840094279199"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "_nVCKVMAAAAJ:Y0pCki6q_DkC",
+      "authors": "Z Yan, S Kamanmalek, N Alamdari",
+      "publication": "Science of The Total Environment 912, 169253, 2024",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13217574737784146336",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13217574737784146336&engine=google_scholar&hl=en",
+        "cites_id": "13217574737784146336"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Analysis for spatial-temporal matching pattern between water and land resources in Central Asia",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "_nVCKVMAAAAJ:u5HHmVD_uO8C",
+      "authors": "Y Zhang, Z Yan, J Song, A Wei, H Sun, D Cheng",
+      "publication": "Hydrology Research 51 (5), 994-1008, 2020",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3887047068516507825",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3887047068516507825&engine=google_scholar&hl=en",
+        "cites_id": "3887047068516507825"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Comprehensive insights into harmful algal blooms: A review of chemical, physical, biological, and climatological influencers with predictive modeling approaches",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "_nVCKVMAAAAJ:W7OEmFMy1HYC",
+      "authors": "Z Yan, S Kamanmalek, N Alamdari, MR Nikoo",
+      "publication": "Journal of Environmental Engineering 150 (4), 03124002, 2024",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12874798978779174556",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12874798978779174556&engine=google_scholar&hl=en",
+        "cites_id": "12874798978779174556"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Comprehensive Analysis of Grain Production Based on Three-Stage Super-SBM DEA and Machine Learning in Hexi Corridor, China",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "_nVCKVMAAAAJ:9yKSN-GCB0IC",
+      "authors": "Z Yan, W Zhou, Y Wang, X Chen",
+      "publication": "Sustainability 14 (14), 8881, 2022",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4771956371733990967,13416688792816670517",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4771956371733990967%2C13416688792816670517&engine=google_scholar&hl=en",
+        "cites_id": "4771956371733990967,13416688792816670517"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Research progress on design hyetographs in small and medium-scale basins",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "_nVCKVMAAAAJ:d1gkVwhDpl0C",
+      "authors": "YAN Zhengxiao, XIA Jun, S Jinxi, Z Lingling, P Guowei",
+      "publication": "Progress in Geography 39 (7), 07001224, 2020",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15280180807730585364,8139174882695122528",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15280180807730585364%2C8139174882695122528&engine=google_scholar&hl=en",
+        "cites_id": "15280180807730585364,8139174882695122528"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "_nVCKVMAAAAJ:_FxGoFyzp5QC",
+      "authors": "Z Yan, N Alamdari",
+      "publication": "Journal of Environmental Management 364, 121463, 2024",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2872484831542878109",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2872484831542878109&engine=google_scholar&hl=en",
+        "cites_id": "2872484831542878109"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Modeling the latent impacts of extreme floods on indoor mold spores in residential buildings: Application of machine learning algorithms",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:UebtZRa9Y70C",
+      "citation_id": "_nVCKVMAAAAJ:UebtZRa9Y70C",
+      "authors": "M Pakdehi, E Ahmadisharaf, P Azimi, Z Yan, Z Keshavarz, C Caballero, ...",
+      "publication": "Environment International, 109319, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10457741842069166413",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10457741842069166413&engine=google_scholar&hl=en",
+        "cites_id": "10457741842069166413"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Prediction and Mitigation of Harmful Algal Blooms in Biscayne Bay Using Advanced Numerical Methods",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "_nVCKVMAAAAJ:hqOjcs7Dif8C",
+      "authors": "Z Yan",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Machine learning modeling to evaluate mold growth and asthma aftermath of hurricanes",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:roLk4NBRz8UC",
+      "citation_id": "_nVCKVMAAAAJ:roLk4NBRz8UC",
+      "authors": "E Ahmadisharaf, M Pakdehi, Z Yan",
+      "publication": "Designsafe-CI, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Impact of Hurricanes on Indoor Mold and Asthma: Subtitle",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:LkGwnXOMwfcC",
+      "citation_id": "_nVCKVMAAAAJ:LkGwnXOMwfcC",
+      "authors": "M Pakdehi, P Azimi, Z Keshavarz, C Caballero, E Ahmadisharaf, Z Yan, ...",
+      "publication": "Designsafe-CI, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Tackling Coastal HAB Prediction in Coastal Estuaries: A Hybrid Decomposition and Machine Learning Framework",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:ufrVoPGSRksC",
+      "citation_id": "_nVCKVMAAAAJ:ufrVoPGSRksC",
+      "authors": "Z Yan, N Alamdari",
+      "publication": "AGU Fall Meeting Abstracts 2023 (1758), H23M-1758, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Key drivers of mold growth and human respiratory illness after a hurricane: Lessons from Hurricane Ida",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "_nVCKVMAAAAJ:zYLM7Y9cAGgC",
+      "authors": "Z Yan, P Azimi, Z Keshavar, C Caballero, E Ahmadisharaf, JG Allen",
+      "publication": "AGU Fall Meeting Abstracts 2022, GH23B-04, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Harmful algal blooms prediction in coastal areas with environmental stressors using machine learning Methods: Case study of Biscayne Bay, South Florida",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "_nVCKVMAAAAJ:IjCSPb-OGe4C",
+      "authors": "Z Yan, N Alamdari",
+      "publication": "AGU Fall Meeting Abstracts 2022, H22P-1040, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Predicting Future Harmful Algal Blooms in Urban Coastal Areas: A Novel Data-Driven Approach Integrating Bias-Corrected Climate Data",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_nVCKVMAAAAJ&citation_for_view=_nVCKVMAAAAJ:Se3iqnhoufwC",
+      "citation_id": "_nVCKVMAAAAJ:Se3iqnhoufwC",
+      "authors": "Z Yan, N Alamdari",
+      "publication": "Available at SSRN 5045884, 0",
+      "cited_by": {
+        "value": null
+      },
+      "year": ""
+    }
+  ],
+  "cited_by": {
+    "table": [
+      {
+        "citations": {
+          "all": 121,
+          "since_2020": 121
+        }
+      },
+      {
+        "h_index": {
+          "all": 6,
+          "since_2020": 6
+        }
+      },
+      {
+        "i10_index": {
+          "all": 6,
+          "since_2020": 6
+        }
+      }
+    ],
+    "graph": [
+      {
+        "year": 2021,
+        "citations": 2
+      },
+      {
+        "year": 2022,
+        "citations": 7
+      },
+      {
+        "year": 2023,
+        "citations": 14
+      },
+      {
+        "year": 2024,
+        "citations": 47
+      },
+      {
+        "year": 2025,
+        "citations": 51
+      }
+    ]
+  },
+  "public_access": {
+    "link": "https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=_nVCKVMAAAAJ",
+    "available": 3,
+    "not_available": 0
+  },
+  "co_authors": [
+    {
+      "name": "Nasrin Alamdari",
+      "link": "https://scholar.google.com/citations?user=-be3UiQAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=-be3UiQAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "-be3UiQAAAAJ",
+      "affiliations": "Assistant Professor, Florida State University",
+      "email": "Verified email at fsu.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=-be3UiQAAAAJ&citpid=3"
+    },
+    {
+      "name": "Jinxi Song",
+      "link": "https://scholar.google.com/citations?user=HMJaWoIAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=HMJaWoIAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "HMJaWoIAAAAJ",
+      "affiliations": "Professor of Hydrology and Water Science",
+      "email": "Verified email at nwu.edu.cn",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HMJaWoIAAAAJ&citpid=3"
+    },
+    {
+      "name": "Anlei Wei",
+      "link": "https://scholar.google.com/citations?user=aRcb9OwAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=aRcb9OwAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "aRcb9OwAAAAJ",
+      "affiliations": "Northwest University",
+      "email": "Verified email at nwu.edu.cn",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=aRcb9OwAAAAJ&citpid=4"
+    },
+    {
+      "name": "Mohammad Reza Nikoo",
+      "link": "https://scholar.google.com/citations?user=tbsw9yAAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=tbsw9yAAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "tbsw9yAAAAAJ",
+      "affiliations": "Associate Professor, Department of Civil and Architectural Engineering, Sultan Qaboos University.",
+      "email": "Verified email at squ.edu.om",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=tbsw9yAAAAAJ&citpid=53"
+    },
+    {
+      "name": "XI CHEN PhD",
+      "link": "https://scholar.google.com/citations?user=Ua8wZCoAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=Ua8wZCoAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "Ua8wZCoAAAAJ",
+      "affiliations": "Professor of Hydrology and Water Resources, Hohai University",
+      "email": "Verified email at hhu.edu.cn",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=Ua8wZCoAAAAJ&citpid=2"
+    },
+    {
+      "name": "Ebrahim Ahmadisharaf",
+      "link": "https://scholar.google.com/citations?user=4EUaT8QAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=4EUaT8QAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "4EUaT8QAAAAJ",
+      "affiliations": "Assisant Professor, Florida State University",
+      "email": "Verified email at eng.famu.fsu.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=4EUaT8QAAAAJ&citpid=3"
+    },
+    {
+      "name": "Joseph Allen",
+      "link": "https://scholar.google.com/citations?user=UkiJxbwAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=UkiJxbwAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "UkiJxbwAAAAJ",
+      "affiliations": "Harvard T.H. Chan School of Public Health",
+      "email": "Verified email at hsph.harvard.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=UkiJxbwAAAAJ&citpid=1"
+    },
+    {
+      "name": "Maryam Pakdehi",
+      "link": "https://scholar.google.com/citations?user=iKO3KiYAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=iKO3KiYAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "iKO3KiYAAAAJ",
+      "affiliations": "PhD. student in Civil Engineering",
+      "email": "Verified email at fsu.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iKO3KiYAAAAJ&citpid=7"
+    },
+    {
+      "name": "Parham Azimi",
+      "link": "https://scholar.google.com/citations?user=JnEyZoYAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=JnEyZoYAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "JnEyZoYAAAAJ",
+      "affiliations": "Research Associate, Harvard T.H. Chan School of Public Health",
+      "email": "Verified email at hsph.harvard.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=JnEyZoYAAAAJ&citpid=2"
+    },
+    {
+      "name": "Zahra Keshavarz",
+      "link": "https://scholar.google.com/citations?user=G2LJ570AAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=G2LJ570AAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "G2LJ570AAAAJ",
+      "affiliations": "Researcher at Harvard T.H. Chan School of Public Health",
+      "email": "Verified email at hsph.harvard.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=G2LJ570AAAAJ&citpid=2"
+    },
+    {
+      "name": "Xia Jun",
+      "link": "https://scholar.google.com/citations?user=BVdmYzkAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=BVdmYzkAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "BVdmYzkAAAAJ",
+      "affiliations": "Hydrology Professor, Wuhan University",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=BVdmYzkAAAAJ&citpid=1"
+    }
+  ]
+}
