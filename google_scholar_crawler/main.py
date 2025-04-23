@@ -19,7 +19,8 @@ params = {
 response = requests.get(url, params=params)
 data = response.json()
 
-citation_count = data.get("cited_by", {}).get("value", 0)
+citation_count = data.get("cited_by", {}).get("table", [{}])[0].get("citations", {}).get("all", 0)
+
 name = data.get("name", "unknown")
 
 os.makedirs("results", exist_ok=True)
