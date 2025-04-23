@@ -18,8 +18,12 @@ search = GoogleSearch(params)
 results = search.get_dict()
 
 # ========== 新增调试输出 ==========
-print("📋 [DEBUG] Raw results from SerpAPI:")
-print(json.dumps(results, indent=2))
+api_key = os.environ.get("SERPAPI_KEY")
+if not api_key:
+    print("❌ SERPAPI_KEY not found in environment variables!")
+    exit(1)
+else:
+    print("🔐 SERPAPI_KEY detected, length:", len(api_key))
 
 # ========== 错误检查 ==========
 if "error" in results:
