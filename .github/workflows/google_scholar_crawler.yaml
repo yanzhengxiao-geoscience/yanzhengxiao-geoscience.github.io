@@ -1,8 +1,8 @@
-name: Get Citation Data
+name: Update Citation Badge to google-scholar-stats
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * *'  # 每天早上 8 点 UTC 自动运行
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,11 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout main
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -21,18 +25,30 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run citation update script
+      - name: Run update script
         env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-        run: |
-          cd ./google_scholar_crawler
-          python3 main.py
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        run: python3 google_scholar_crawler/main.py
 
-      - name: Commit & Push
+      - name: Copy JSON to temp dir
         run: |
-          git config --local user.name "${{ github.actor }}"
-          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          mkdir temp_push
+          cp gs_data_shieldsio.json temp_push/
+
+      - name: Checkout google-scholar-stats branch
+        uses: actions/checkout@v3
+        with:
+          ref: google-scholar-stats
+          path: scholar_branch
+          fetch-depth: 0
+
+      - name: Move and commit the citation badge
+        run: |
+          cp temp_push/gs_data_shieldsio.json scholar_branch/
+          cd scholar_branch
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add gs_data_shieldsio.json
-          git commit -m "🔄 Update Scholar citation badge" || echo "No changes"
-          git push origin main
+          git commit -m "🔁 Auto-update citation badge" || echo "No changes to commit"
+          git push origin google-scholar-stats
