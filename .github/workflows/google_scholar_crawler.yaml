@@ -1,51 +1,46 @@
-name: Update Citation Badge to google-scholar-stats
+name: Get Citation Data
 
 on:
   schedule:
-    - cron: '0 8 * * *'
-  workflow_dispatch:
+    - cron: '0 8 * * *'  # 每天早上 8 点（UTC）自动运行
+  workflow_dispatch:      # 支持手动运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v3
-        with:
-          ref: main
-          fetch-depth: 0
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Install requests
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Run update script
+      - name: Run citation update script
         env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
-          python3 google_scholar_crawler/main.py
-          mkdir temp_push
-          cp gs_data_shieldsio.json temp_push/
+          cd google_scholar_crawler
+          python3 main.py
 
-      - name: Checkout google-scholar-stats branch
-        uses: actions/checkout@v3
-        with:
-          ref: google-scholar-stats
-          path: scholar_branch
-          fetch-depth: 0
-
-      - name: Copy JSON and push to google-scholar-stats
+      - name: Commit to google-scholar-stats branch
         run: |
-          cp temp_push/gs_data_shieldsio.json scholar_branch/
-          cd scholar_branch
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+          # 切换到目标分支（如果不存在会自动创建）
+          git checkout -B google-scholar-stats
+
+          # 拷贝生成的文件到根目录（从 scholar_branch/ 复制）
+          cp scholar_branch/gs_data_shieldsio.json .
+
           git add gs_data_shieldsio.json
-          git commit -m "🔁 Auto-update citation badge" || echo "No changes to commit"
-          git push origin google-scholar-stats
+          git commit -m "🔁 Auto-update citation badge" || echo "No changes"
+          git push origin google-scholar-stats --force
