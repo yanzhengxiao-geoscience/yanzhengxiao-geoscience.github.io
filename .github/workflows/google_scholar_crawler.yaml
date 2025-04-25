@@ -2,13 +2,12 @@ name: Update Citation Badge to google-scholar-stats
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # 每天早上 8 点 UTC 自动运行
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
       - name: Checkout main
@@ -22,17 +21,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install requests
         run: pip install requests
 
       - name: Run update script
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        run: python3 google_scholar_crawler/main.py
-
-      - name: Copy JSON to temp dir
         run: |
+          python3 google_scholar_crawler/main.py
           mkdir temp_push
           cp gs_data_shieldsio.json temp_push/
 
@@ -43,7 +40,7 @@ jobs:
           path: scholar_branch
           fetch-depth: 0
 
-      - name: Move and commit the citation badge
+      - name: Copy JSON and push to google-scholar-stats
         run: |
           cp temp_push/gs_data_shieldsio.json scholar_branch/
           cd scholar_branch
