@@ -48,10 +48,10 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 </div>
 
 # 📝 Publications 
+- [Projecting harmful algal blooms in North Biscayne Bay using machine learning and bias-corrected climate scenarios](https://doi.org/10.1016/j.ejrh.2025.102865), **Yan, Z.**, & Alamdari, N. (2025). Projecting harmful algal blooms in North Biscayne Bay using machine learning and bias-corrected climate scenarios. *Journal of Hydrology: Regional Studies*, 62, 102865.
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JEMA 2024</div><img src='images/jema.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
-- [Projecting harmful algal blooms in North Biscayne Bay using machine learning and bias-corrected climate scenarios](https://doi.org/10.1016/j.ejrh.2025.102865), **Yan, Z.**, & Alamdari, N. (2025). Projecting harmful algal blooms in North Biscayne Bay using machine learning and bias-corrected climate scenarios. *Journal of Hydrology: Regional Studies*, 62, 102865.
 
 [Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms](https://doi.org/10.1016/j.jenvman.2024.121463)
 
