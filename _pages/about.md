@@ -48,6 +48,10 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 </div>
 
 # 📝 Publications 
+- [Algal blooms. Data-Driven Earth Observation for Disaster Management (pp. 183-205)](https://doi.org/10.1016/B978-0-443-33803-8.00004-4), Alamdari, N., **Yan, Z.**, Azadani, M. N., & Imtiaz, S. U. (2026). Algal blooms. *Data-Driven Earth Observation for Disaster Management*, (pp. 183-205), Elsevier.
+
+- [Application of machine learning methods in water quality modeling. Machine learning and artificial intelligence in toxicology and environmental health (pp. 271-309)](https://doi.org/10.1016/B978-0-443-30010-3.00016-7), Rabby, S. H., Sun, X., Hafiz, A. M. I., **Yan, Z.**, Imtiaz, S. U., Azadani, M. N., ... & Alamdari, N. (2026). Application of machine learning methods in water quality modeling. *Machine learning and artificial intelligence in toxicology and environmental health*, (pp. 271-309), Academic Press.
+
 - [Projecting harmful algal blooms in North Biscayne Bay using machine learning and bias-corrected climate scenarios](https://doi.org/10.1016/j.ejrh.2025.102865), **Yan, Z.**, & Alamdari, N. (2025). Projecting harmful algal blooms in North Biscayne Bay using machine learning and bias-corrected climate scenarios. *Journal of Hydrology: Regional Studies*, 62, 102865.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JEMA 2024</div><img src='images/jema.png' alt="sym" width="100%"></div></div>
