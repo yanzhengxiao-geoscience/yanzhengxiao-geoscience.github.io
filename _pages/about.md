@@ -40,7 +40,13 @@ My research interests lie at the intersection of *machine learning*, *climate ch
 # 🔥 News
 <div style="height: 100px; overflow-y: scroll;">
   <ul>
-    <li><strong>2025.12:</strong> 🎉🎉 Please check our two latest published book chapters, "Algal blooms. In *Data-Driven Earth Observation for Disaster Management*" and "Application of machine learning methods in water quality modeling. In *Machine learning and artificial intelligence in toxicology and environmental health*"</li>
+    <li>
+      <strong>2025.12:</strong> 🎉🎉 Please check our two latest published book chapters,
+      "Algal blooms. In <em>Data-Driven Earth Observation for Disaster Management</em>"
+      and
+      "Application of machine learning methods in water quality modeling. In
+      <em>Machine learning and artificial intelligence in toxicology and environmental health</em>"
+    </li>
     <li><strong>2025.10:</strong> 🎉🎉 "Projecting harmful algal blooms in North Biscayne Bay using machine learning and bias-corrected climate scenarios" is accepted by the Journal of Hydrology: Regional Studies.</li>
     <li><strong>2024.07:</strong> 🎉🎉 "Integrating temporal decomposition and data-driven approaches for predicting coastal harmful algal blooms" is accepted by the Journal of Environmental Management.</li>
     <li><strong>2024.02:</strong> 🎉🎉 "Predicting coastal harmful algal blooms using integrated data-driven analysis of environmental factors" is accepted by the Science of The Total Environment.</li>
